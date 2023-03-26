@@ -33,4 +33,24 @@ let algo3 = (array) => {
     console.log(val);
 }
 
-algo3(array3);
+
+let algo4 = ( x = 1 ) => {
+    let array = []
+    while(x <= 255) {
+        if(x / 2 && x % 2 === 0) {
+            x = x + 1;
+            array.push(x);
+        }
+        else {
+            array.push(x);
+            x = x +2;
+        }
+    }
+    console.log(array);
+}
+
+algo4();
+
+
+
+
