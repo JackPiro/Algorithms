@@ -49,8 +49,20 @@ let algo4 = ( x = 1 ) => {
     console.log(array);
 }
 
-algo4();
+let array5 = [1,2,3,4,5,5,4,3,2,1,6];
+let algo5 = (array, y) => {
+    let index = 0;
+    while(index < array.length) {
+        if( y < array[index] ) {
+            console.log(array[index])
+            index = index + 1;
+        }
+        else {
+            index = index + 1;
+        }
+    }
+}
 
 
-
+algo5(array5, 4)
 
