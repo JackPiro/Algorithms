@@ -49,7 +49,7 @@ let algo4 = ( x = 1 ) => {
     console.log(array);
 }
 
-let array5 = [1,2,3,4,5,5,4,3,2,1,6];
+
 let algo5 = (array, y) => {
     let index = 0;
     while(index < array.length) {
@@ -64,5 +64,30 @@ let algo5 = (array, y) => {
 }
 
 
-algo5(array5, 4)
 
+let array6 = [2,2,3,4,5,5,4,3,2,2,7,8];
+let algo6 = (array) => {
+    let index = 0;
+    let min
+    let max
+    let average = 0;
+    let sum = 0;
+    while(index < array.length) {
+        sum = sum + array[index];
+        if(min < array[index]) {
+            max = array[index]
+            index = index + 1;
+        }
+        else {
+            min  = array[index]
+            index = index + 1;
+        }
+    }
+    average = sum / array.length
+    console.log(average);
+    console.log(min);
+    console.log(max);
+}
+
+
+algo6(array6);
