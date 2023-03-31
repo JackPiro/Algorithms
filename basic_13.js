@@ -65,6 +65,7 @@ let algo5 = (array, y) => {
 
 
 
+let array6 = [2,-2,3,4,5,5,-4,3,2,2,7,8];
 
 let algo6 = (array) => {
     let index = 0;
@@ -89,6 +90,9 @@ let algo6 = (array) => {
     console.log(max);
 }
 
+
+
+
 let array7 = [2,-2,3,4,5,5,-4,3,2,2,7,8];
 let algo7 = (array) => {
     let index = 0;
@@ -104,4 +108,19 @@ let algo7 = (array) => {
     console.log(array)
 }
 
-algo7(array7);
+
+let algo8 = () => {
+    let x = 0;
+    while (x <= 255) {
+        if (x % 2 !== 0) {
+            console.log(x);
+            x = x + 1;
+        }
+        else {
+            x = x + 1;
+        }
+    }
+}
+
+algo8();
+
