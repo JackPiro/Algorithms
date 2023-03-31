@@ -122,5 +122,14 @@ let algo8 = () => {
     }
 }
 
-algo8();
+let array9 = [2,-2,3,4,5,5,-4,3,2,2,7,8];
+let algo9 = (array) => {
+    let index = 0
+    while (index < array.length) {
+        console.log(array[index])
+        index = index + 1;
+    }
+}
 
+
+algo9(array9);
