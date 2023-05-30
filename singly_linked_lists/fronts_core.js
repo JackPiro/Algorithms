@@ -16,6 +16,7 @@ class SLL {
         this.head = newNode;
     }
 
+    
     removeFront() {
         if (this.head) {
             this.head = this.head.next;
